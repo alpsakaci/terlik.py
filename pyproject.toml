@@ -24,6 +24,7 @@ dev = [
 ]
 
 [tool.setuptools.packages.find]
+where = ["src"]
 include = ["terlik*"]
 
 [tool.setuptools.package-data]
@@ -33,4 +34,4 @@ include = ["terlik*"]
 "terlik.lang.de" = ["dictionary.json"]
 
 [tool.pytest.ini_options]
-pythonpath = ["."]
+pythonpath = ["src"]
