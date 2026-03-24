@@ -34,7 +34,7 @@ class WordEntry:
     root: str
     variants: List[str]
     severity: Severity
-    category: Optional[str] = None
+    category: Optional[Category] = None
     suffixable: bool = False
 
 
